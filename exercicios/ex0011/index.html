@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midias em html5</title>
+</head>
+<body>
+    <h1>imagens dinamicas</h1>
+    <p>tente abrir esse site em varrios dispositivos diferentes ou aumente e diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset=imagens/images-1" type="imagens/png">
+        <source media="(max-width: 1050px)" srcset="imagens/images-1-v" type="imagens/png">
+        <img src="imagens/images-3" alt="imagem flexivel">
+    </picture> <!--refazer-->
+
+    <h1>reproduzindo audios em html5</h1>
+    <h2>primeira forma</h2>
+    <audio src="midia/cafecitoporlamanana.mp3" controls autoplay></audio>
+    <!--mp3, wav, ogg-->
+    <h2>segunda forma</h2>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.ogg" type="audio/ogg">
+        <source src="midia/guanacast-33.wav" type="audio/wav">
+    </audio> <!--autoplay nao esta funcionando-->
+    <p>se caso nao abrir o seu navegador nao e compativel. <a href="https://github.com/gustavoguanabara/html-css/blob/master/exercicios/modulo-01/ex011/midia/guanacast-33.mp3">baixe aqui</a></p>
+</body>
+</html>
