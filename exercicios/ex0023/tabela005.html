@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio de tabela</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            width: 400px;
+            border-collapse: collapse;
+        }
+
+        caption{
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+
+        th, td{
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        col.cnome{
+            background-color: chartreuse;
+        }
+
+        col.cgrupo{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>exrercicio de tabela</h1>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="cgrupo" span="2">
+            <col class="prof">
+        </colgroup>
+        <caption>cadastro</caption>
+        <tr>
+            <th scope="col">nome</th>
+            <th scope="col">sexo</th>
+            <th scope="col">idade</th>
+            <th scope="col">profissao</th>
+        </tr>
+        <tr>
+            <td>ana maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>jornalista</td>
+        </tr>
+        <tr>
+            <td>claudio</td>
+            <td>M</td>
+            <td>28</td>
+            <td>Progrmador</td>
+        </tr>
+        <tr>
+            <td>gustavo</td>
+            <td>M</td>
+            <td>17</td>
+            <td>estudante</td>
+        </tr>
+        <tr>
+            <td>ana maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>jornalista</td>
+        </tr>
+        <tr>
+            <td>claudio</td>
+            <td>M</td>
+            <td>28</td>
+            <td>Progrmador</td>
+        </tr>
+        <tr>
+            <td>gustavo</td>
+            <td>M</td>
+            <td>17</td>
+            <td>estudante</td>
+    </table>
+</body>
+</html>
