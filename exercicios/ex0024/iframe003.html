@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>uso de iframe</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela{
+            display: block;
+            width: 98vh;
+            height: 400px;
+            border: 2px solid black;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea excepturi beatae unde itaque accusantium eligendi recusandae natus doloribus voluptatibus perspiciatis doloremque, sequi sit a, dignissimos architecto maiores neque perferendis tempora!</p>
+
+    <ul>
+        <li><a href="pag001.html" target="frame">primeira pagina</a></li>
+        <li><a href="pag002.html" target="frame">segunda pagina</a></li>
+        <li><a href="pag003.html" target="frame">terceira pagina</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita accusamus voluptates sed ad temporibus vero illum sapiente eius impedit. Autem quidem cupiditate eius veritatis molestiae blanditiis modi, est libero ipsa! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea quisquam debitis eligendi necessitatibus? Facilis maiores accusantium molestias ullam deserunt voluptatibus, quia inventore in hic enim praesentium incidunt deleniti consequuntur aperiam!</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1>escolha uma das opcoes acima</h1> <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae reprehenderit impedit quidem veritatis architecto sapiente soluta ex fuga iste sit, porro cumque aliquam voluptatibus quas aut beatae repellat saepe nisi! </p> <img src='images.jpg'>">
+        <p>infelizmente seu navegador nao e compativel com isso</p>
+
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, id. Perspiciatis facere dolores molestiae rem reprehenderit ex iusto voluptatem, soluta expedita nam possimus sed, quas veritatis accusantium amet architecto excepturi!</p>
+</body>
+</html>
