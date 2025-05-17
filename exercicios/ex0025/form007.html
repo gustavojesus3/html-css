@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <h1>forms</h1>
+    <form action="" method="post">
+        <p>
+            <label for="iest">estado</label>
+
+            <select name="estado" id="iest">
+
+                <optgroup label="regiao sudeste">
+                    <option value="SP" selected>sao paulo</option>
+                    <option value="RJ">rio de janeiro</option>
+                    <option value="MG">minas gerais</option>
+                </optgroup>
+
+                <optgroup label="regiao nordeste">
+                    <option value="RN">rio grande do norte</option>
+                    <option value="PE">pernambuco</option>
+                    <option value="meta">maranhão</option>
+                </optgroup>
+            </select>
+        </p>
+
+        <p>
+            <label for="iprof">profissao</label>
+            <input type="text" name="prof" id="iprof" list="listaprof" >
+            <datalist id="listaprof">
+                <option>adminstrador</option>
+                <option>contabilidade</option>
+                <option>desenvolvedor</option>
+                <option>professor</option>
+            </datalist>
+        </p>
+
+        <p>
+            <label for="imsg">mensagem</label> <br>
+            <textarea name="msg" id="imgs" cols="30" rows="10" placeholder="digite sua mensagem"></textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+    </form>
+</body>
+</html>
