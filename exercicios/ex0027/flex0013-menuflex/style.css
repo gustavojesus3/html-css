@@ -24,13 +24,12 @@ header{
     align-items: center;
 }
 
-header h1{
-    border: 1px dotted black;
+header h1{ 
     flex: 0 0 200px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.348);
 }
 
 header nav{
-    border: 1px dotted black;
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
@@ -44,6 +43,7 @@ header nav a{
     border-radius: 5px;
     text-decoration: none;
     text-align: center;
+
 }
 
 header nav a:hover{
