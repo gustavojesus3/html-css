@@ -38,7 +38,7 @@ article.text-media{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    margin-top: 15px;
+    
 }
 
 article.media-text{
@@ -60,12 +60,12 @@ div.media img{
     width: 400px;
     display: block;
     margin: auto;
-    margin-bottom: 15px;
+    
 }
 
 div.media iframe{
     display: block;
     margin: auto;
-    width: 90vw;
-    margin-top: 15px;
+    width: 90%;
+    
 }
